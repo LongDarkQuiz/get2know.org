@@ -1,0 +1,38 @@
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-share-tech-mono: "Share Tech Mono";
+
+  /* font sizes */
+  --font-size-2xs: 10px;
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-base: 22px;
+  --font-size-lg: 26px;
+  --font-size-xl: 30px;
+  --font-size-2xl: 40px;
+
+  /* Colors */
+  --white: #fff;
+  --color-deepskyblue: #22b0f2;
+  --color-whitesmoke: #f8f8f8;
+
+  /* Gaps */
+  --gap-xs: 10px;
+  --gap-sm: 25px;
+  --gap-md: 32px;
+  --gap-lg: 64px;
+
+  /* Paddings */
+  --padding-4xs: 5px;
+  --padding-3xs: 10px;
+  --padding-2xs: 15px;
+  --padding-xs: 20px;
+  --padding-sm: 22px;
+  --padding-md: 32px;
+  --padding-lg: 53px;
+  --padding-xl: 64px;
+  --padding-2xl: 76px;
+  --padding-3xl: 80px;
+  --padding-4xl: 248px;
+}

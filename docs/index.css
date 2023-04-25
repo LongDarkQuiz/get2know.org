@@ -16,53 +16,45 @@
     opacity: 1;
   }
 }
-body {
-  margin: 0;
-  line-height: normal;
-}
-.screenshot-2023-03-07-at-2037 {
+.get-2-know-logo {
   position: relative;
-  width: 734.91px;
-  height: 493.29px;
+  width: 777px;
+  height: 514px;
   flex-shrink: 0;
   object-fit: cover;
 }
-.screenshot-2023-03-07-at-2037-wrapper {
-  width: 850px;
-  height: 583px;
-  flex-shrink: 0;
+.get-2-know-logo-wrapper {
+  align-self: stretch;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-3xl) 0 var(--padding-md);
-  box-sizing: border-box;
+  padding: var(--padding-61xl) 0 var(--padding-13xl);
   align-items: center;
   justify-content: flex-start;
   opacity: 0;
 }
-.get-ready-for-the-ga-wrapper.animate,
-.screenshot-2023-03-07-at-2037-wrapper.animate {
+.get-2-know-logo-wrapper.animate,
+.get-ready-for-the-ga-wrapper.animate {
   animation: 1s ease 0.4s 1 normal forwards fade-in;
 }
 .get-ready-for {
   margin: 0;
+  align-self: stretch;
   position: relative;
   letter-spacing: 0.29px;
   line-height: 50px;
-  display: inline-block;
-  width: 753px;
 }
 .get-ready-for-the-ga-wrapper {
   align-self: stretch;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-3xl) 0 126px;
+  padding: var(--padding-61xl) 96px 126px;
   align-items: center;
   justify-content: flex-start;
   opacity: 0;
   text-align: center;
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-21xl);
   font-family: var(--font-share-tech-mono);
 }
 .aim-of-the {
@@ -107,7 +99,7 @@ body {
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-3xl);
   text-align: center;
 }
 .frame-aim-of-the-game {
@@ -115,10 +107,10 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-lg) var(--padding-2xl) var(--padding-xl);
+  padding: var(--padding-34xl) var(--padding-57xl) var(--padding-45xl);
   align-items: center;
   justify-content: center;
-  gap: var(--gap-lg);
+  gap: var(--gap-45xl);
   opacity: 0;
 }
 .frame-aim-of-the-game.animate {
@@ -156,10 +148,10 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-lg) var(--padding-2xl) var(--padding-xl);
+  padding: var(--padding-34xl) var(--padding-57xl) var(--padding-45xl);
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-lg);
+  gap: var(--gap-45xl);
   opacity: 0;
 }
 .frame-place-a-stake.animate {
@@ -218,10 +210,10 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-lg) var(--padding-2xl) var(--padding-xl);
+  padding: var(--padding-34xl) var(--padding-57xl) var(--padding-45xl);
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-lg);
+  gap: var(--gap-45xl);
   opacity: 0;
 }
 .frame-the-time-period.animate {
@@ -260,7 +252,7 @@ body {
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-3xl);
   text-align: center;
   opacity: 0;
 }
@@ -290,13 +282,13 @@ body {
   height: 37.35px;
   flex-shrink: 0;
   text-align: left;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-11xl);
 }
 .get-ready-for1 {
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-7xl);
   letter-spacing: 0.29px;
   line-height: 40px;
   font-weight: 700;
@@ -333,18 +325,18 @@ body {
   border: 1px dashed var(--white);
   box-sizing: border-box;
   width: 595px;
-  padding: var(--padding-2xs) 0 var(--padding-xs);
+  padding: var(--padding-mini) 0 var(--padding-xl);
   justify-content: center;
-  gap: var(--gap-sm);
+  gap: var(--gap-6xl);
   color: var(--color-deepskyblue);
 }
 .frame-submit-a-question {
   align-self: stretch;
-  padding: var(--padding-lg) var(--padding-2xl) var(--padding-xl);
+  padding: var(--padding-34xl) var(--padding-57xl) var(--padding-45xl);
   justify-content: flex-start;
-  gap: var(--gap-lg);
+  gap: var(--gap-45xl);
   text-align: center;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-3xl);
 }
 .frame-submit-a-question.animate {
   animation: 1.5s ease 0.2s 1 normal forwards slide-in-bottom;
@@ -397,11 +389,11 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-3xs) 0 var(--padding-xs);
+  padding: var(--padding-3xs) 0 var(--padding-xl);
   align-items: center;
   justify-content: flex-start;
   gap: 8px;
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-21xl);
 }
 .main-score,
 .stars,
@@ -442,7 +434,7 @@ body {
 }
 .review-1 {
   padding: var(--padding-3xs);
-  gap: var(--gap-xs);
+  gap: var(--gap-3xs);
 }
 .span {
   color: var(--white);
@@ -460,15 +452,15 @@ body {
   border: 1px dashed var(--white);
   box-sizing: border-box;
   width: 595px;
-  padding: var(--padding-2xs) 0 var(--padding-xs);
-  gap: var(--gap-sm);
+  padding: var(--padding-mini) 0 var(--padding-xl);
+  gap: var(--gap-6xl);
   text-align: center;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-3xl);
   color: var(--color-deepskyblue);
 }
 .frame-what-our-players-think {
   align-self: stretch;
-  padding: var(--padding-lg) var(--padding-2xl) var(--padding-xl);
+  padding: var(--padding-34xl) var(--padding-57xl) var(--padding-45xl);
   gap: 106px;
 }
 .footer.animate,
@@ -513,7 +505,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-lg) var(--padding-2xl) var(--padding-4xl);
+  padding: var(--padding-34xl) var(--padding-57xl) var(--padding-229xl);
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
@@ -533,7 +525,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-lg) var(--padding-2xl) var(--padding-4xl);
+  padding: var(--padding-34xl) var(--padding-57xl) var(--padding-229xl);
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
@@ -557,12 +549,12 @@ body {
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-11xl);
 }
 .register-here {
   cursor: pointer;
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-3xl);
   text-transform: uppercase;
   font-family: var(--font-inter);
   color: var(--white);
@@ -577,7 +569,7 @@ body {
 .primary-default {
   cursor: pointer;
   border: 0;
-  padding: 19px var(--padding-md);
+  padding: 19px var(--padding-13xl);
   background-color: var(--color-deepskyblue);
   border-radius: 32px;
   width: 327px;
@@ -587,12 +579,12 @@ body {
 .frame-how-to-play2 {
   align-self: stretch;
   overflow: hidden;
-  padding: var(--padding-lg) var(--padding-2xl) var(--padding-xl);
+  padding: var(--padding-34xl) var(--padding-57xl) var(--padding-45xl);
   justify-content: flex-start;
-  gap: var(--gap-lg);
+  gap: var(--gap-45xl);
   opacity: 0;
   text-align: center;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-3xl);
 }
 .footer-child {
   align-self: stretch;
@@ -641,7 +633,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-sm) 31px var(--padding-sm) 36px;
+  padding: var(--padding-3xl) 31px var(--padding-3xl) 36px;
   align-items: center;
   justify-content: center;
   gap: 147px;
@@ -665,31 +657,39 @@ body {
   flex-shrink: 0;
   text-align: center;
 }
-.footer,
-.web-background {
+.footer {
+  align-self: stretch;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  padding: 83px var(--padding-57xl) var(--padding-45xl);
   align-items: center;
   justify-content: flex-start;
-}
-.footer {
-  align-self: stretch;
-  padding: 83px var(--padding-2xl) var(--padding-xl);
   gap: 44px;
   opacity: 0;
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm);
+}
+.subtract-icon {
+  position: relative;
+  width: 73.49px;
+  height: 130.62px;
+  flex-shrink: 0;
 }
 .web-background {
   position: relative;
   background-color: #000;
   width: 100%;
   height: 6518px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
   padding: 8px 450px var(--padding-3xs);
   box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
   gap: 24px;
   text-align: left;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-11xl);
   color: var(--white);
   font-family: var(--font-inter);
 }
@@ -703,53 +703,53 @@ body {
 }
 @media screen and (max-width: 420px) {
   .aim-of-the {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-3xl);
     text-align: left;
   }
   .aim-of-the-game-parent {
     width: 240px;
   }
   .play-our-customisable-container {
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-sm);
   }
   .frame-aim-of-the-game {
-    padding-left: var(--padding-xs);
-    padding-right: var(--padding-xs);
-    gap: var(--gap-md);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    gap: var(--gap-13xl);
   }
   .building-the-perfect {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-3xl);
   }
   .building-the-perfect-answers-parent {
     width: 200px;
   }
   .frame-place-a-stake {
-    padding-left: var(--padding-xs);
-    padding-right: var(--padding-xs);
-    gap: var(--gap-md);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    gap: var(--gap-13xl);
   }
   .play-for-free {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-3xl);
   }
   .group-parent {
     width: 250px;
   }
   .frame-the-time-period {
-    padding-left: var(--padding-xs);
-    padding-right: var(--padding-xs);
-    gap: var(--gap-md);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    gap: var(--gap-13xl);
   }
   .example-question {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-3xl);
   }
   .vector-group {
     width: 250px;
   }
   .one-of-these {
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-sm);
   }
   .write-a-question {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-3xl);
   }
   .write-a-question-parent {
     width: 250px;
@@ -758,14 +758,14 @@ body {
   .q-length,
   .qa-writing,
   .wow-us {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-base);
   }
   .qa-writing-parent {
     width: 320px;
   }
   .frame-submit-a-question {
-    padding-left: var(--padding-xs);
-    padding-right: var(--padding-xs);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
     gap: 28px;
   }
   .what-our-players {
@@ -775,14 +775,14 @@ body {
     width: 300px;
   }
   .get-ready-for-container {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-7xl);
   }
   .get-ready-for2 {
     font-size: 12px;
   }
   .get-ready-for-container1,
   .stars1 {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-base);
   }
   .get-ready-for-container1 {
     font-family: var(--font-inter);
@@ -791,12 +791,12 @@ body {
     width: 320px;
   }
   .frame-what-our-players-think {
-    padding-left: var(--padding-xs);
-    padding-right: var(--padding-xs);
-    gap: var(--gap-md);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    gap: var(--gap-13xl);
   }
   .click-here-to {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-3xl);
   }
   .vector-container {
     width: 210px;
@@ -805,13 +805,13 @@ body {
   .frame-how-to-play1 {
     height: 180px;
     border-radius: 0;
-    padding-left: var(--padding-xs);
-    padding-right: var(--padding-xs);
-    gap: var(--gap-md);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    gap: var(--gap-13xl);
   }
   .scan-this-qr,
   .you-can-also-container {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-base);
   }
   .scan-this-qr {
     display: none;
@@ -822,7 +822,7 @@ body {
   }
   .or,
   .register-here {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-base);
   }
   .primary-default {
     width: 250px;
@@ -831,16 +831,16 @@ body {
   .frame-how-to-play2 {
     height: 180px;
     border-radius: 0;
-    padding-left: var(--padding-xs);
-    padding-right: var(--padding-xs);
-    gap: var(--gap-md);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    gap: var(--gap-13xl);
   }
   .contact-hellomonkeynutstudio {
     font-family: var(--font-inter);
   }
   .contact-hellomonkeynutstudio,
   .follow {
-    font-size: var(--font-size-2xs);
+    font-size: var(--font-size-3xs);
   }
   .contact-hellomonkeynutstudio-parent {
     padding-left: 0;
@@ -848,10 +848,26 @@ body {
     gap: 60px;
   }
   .monkey-nuts-studio {
-    font-size: var(--font-size-2xs);
+    font-size: var(--font-size-3xs);
   }
   .footer {
-    padding-left: var(--padding-4xs);
-    padding-right: var(--padding-4xs);
+    padding-left: var(--padding-8xs);
+    padding-right: var(--padding-8xs);
+  }
+}
+@media screen and (max-width: 2020px) and (min-width: 1501px) {
+  .web-background {
+    padding-left: var(--padding-281xl);
+    padding-top: 6px;
+    padding-right: var(--padding-281xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1500px) and (min-width: 1201px) {
+  .web-background {
+    padding-left: var(--padding-131xl);
+    padding-top: 7px;
+    padding-right: var(--padding-131xl);
+    box-sizing: border-box;
   }
 }

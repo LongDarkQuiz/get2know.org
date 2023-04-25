@@ -846,6 +846,11 @@
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
   }
+  .web-background {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
 }
 @media screen and (max-width: 2020px) and (min-width: 1501px) {
   .web-background {
